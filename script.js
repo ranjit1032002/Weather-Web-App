@@ -1,3 +1,9 @@
+var preloader=document.getElementById('pre-loading');
+function loader()
+{
+    preloader.style.display='none';
+}
+
 let weather=
 {
     apiKey:"29cd62b0b0b5832635f75228e9957583",
